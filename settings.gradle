@@ -1,0 +1,6 @@
+rootProject.name = 'payara-example'
+include 'java-example'
+include 'groovy-example'
+include 'scala-example'
+include 'kotlin-example'
+
