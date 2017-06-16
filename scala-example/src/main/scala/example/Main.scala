@@ -13,7 +13,7 @@ class MyApp extends Application
 class HelloResource {
 
   @GET
-  @Produces(MediaType.APPLICATION_JSON)
+  @Produces(Array(MediaType.APPLICATION_JSON))
   def hello(@QueryParam("name") name: String): JsonObject = {
     return Json.createObjectBuilder()
       .add("msg", "Hello Scala " + name)
